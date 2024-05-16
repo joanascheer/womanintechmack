@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>Woman Tech</title>
+</head>
+<body>
+    <div id="customDialog" class="custom-dialog" style="display:none;">
+        <div class="dialog-content">
+          <span class="close-button">&times;</span>
+          <p id="dialogMessage"></p>
+          <img class ="dialog-img" src="images/icons/rose.png">
+        </div>
+      </div>
+<header>
+    <div class="menu">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicos.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="form.html">Contato</a>
+              </li>
+          </ul>
+    </div>
+    <div class="img-fluid mx-auto d-block header-responsive-img">
+        <img src="images/leaf-transparent.png">
+    </div>
+</header>
+<div class="container">
+<div class="row">
+    <div class="col-8 left-col">
+
+        <div class="date">
+            <img class ="img-fluid mx-auto d-block heart" src="images/icons/coracaozinho.png">
+            <p>07.05.2024</p>
+        </div>
+
+        <h3>Escolha uma cor e saiba sobre meus times favoritos!</h3>
+
+        <p>Vamos brincar? Escolha no menu uma cor e eu vou te mostrar algumas características dos meus times esportivos favoritos.</p>
+
+        <select id="cor" class="form-select" aria-label="Escolha a cor" onchange="showTeams(this.value)">
+            <option selected>Escolha a cor</option>
+            <option value="Dourado">Dourado</option>
+            <option value="Vermelho">Vermelho</option>
+            <option value="Azul">Azul</option>
+        </select>
+
+        <br><br>
+        
+        <div id="teams"></div>
+
+        <br><br>
+        
+        <div class="date">
+            <img class ="img-fluid mx-auto d-block heart" src="images/icons/coracaozinho.png">
+            <p>05.03.2024</p>
+        </div>
+
+            <h3>Apple Vision Pro chega às lojas dos EUA; saiba tudo sobre os óculos VR</h3>
+            <figure>
+                <img class="img-fluid mx-auto d-block apple-vision-img" src="images/apple-vision-woman.png" alt="Óculos de realidade virtual da Apple">
+                <figcaption>imagem: <a href="https://br.freepik.com/autor/pikisuperstar" target="_blank">Freepik | Piki</a></figcaption>
+            </figure>
+
+                <h5>
+                    Grande aposta da Apple no mercado de realidade mista, Vision Pro chega nesta sexta às lojas nos Estados
+                    Unidos, não tendo previsão de lançamento em outros países
+                </h5>
+        <p>
+            O Apple Vision Pro chegaram às lojas dos Estados Unidos nesta sexta-feira (2). Maior aposta da Apple no
+            campo da realidade virtual, o produto tem preço sugerido de US$ 3.499, ou seja, aproximadamente R$ 17.200 em
+            conversão direta sem considerar impostos. Até o momento, o Vision Pro não tem previsão de lançamento em
+            outros países, e explicamos aqui porque importá-lo não parece uma boa ideia.
+            O Apple Vision Pro foi anunciado na WWDC 2023 — conferência anual em que a Apple apresenta novos lançamentos
+            ao público geral. Os óculos de realidade mista (virtual e aumentada) não têm nenhum tipo de controle
+            externo. O usuário pode controlá-lo apenas com o uso das mãos, olhos e voz — sendo o dispositivo integrado
+            com a Siri. O modelo traz aplicativos nativos da Apple, mas também têm programas de outras empresas,
+            adaptados para funcionar nele.
+        </p>
+
+        <iframe width="560" height="200" src="https://www.youtube.com/embed/Hl4jAFJzubM?si=GAN9mOyDCku8WM0m"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+    </div>
+    <div class="col-4 right-col">
+        <div class="row joana">
+            <img class="img-fluid mx-auto d-block" src="images/Imagem do WhatsApp de 2024-04-03 à(s) 22.04.50_0a84f05e.jpg" />
+        </div>
+        <img class="img-fluid mx-auto d-block rose" src="images/icons/rose.png">
+
+        <div class="last-news">
+            <p>Últimas notícias</p>
+        </div>
+        <a href="https://www.techtudo.com.br/noticias/2024/02/faixa-para-cabeca-promete-ajudar-voce-a-controlar-sonhos-entenda.ghtml"
+           target="_blank">
+            <img class="img-fluid mx-auto d-block" src="images/dreaming-girl.png" alt="Mulher de cabelos longos vermelhos com faixa na cabeça"/>
+            <h6>Faixa para cabeça promete ajudar você a 'controlar sonhos'</h6>
+        </a>
+        <a href="https://sindpd.org.br/sindpd/site/noticia.jsp?Mercado-de-TI-esta-otimista-para-2024;-veja-cargos-e-salarios-que-estarao-em-alta&id=1699626910839#:~:text=Os%20mais%20procurados%20ser%C3%A3o%3A,informa%C3%A7%C3%A3o%2C%20intelig%C3%AAncia%20artificial%2C%20cloud."
+           target="_blank">
+            <img class="img-fluid mx-auto d-block" src="images/happy-ti-woman.png" alt="homem e mulher olhando gráficos e métricas"/>
+            <h6>Mercado de TI está otimista para 2024; veja cargos e salários que estarão em alta</h6>
+        </a>
+    </div>
+</div>
+</div>
+
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <div class="row">
+            <div id="coluna1" class="col"></div>
+            <div id="coluna2" class="col d-flex justify-content-end">
+                <div class="col empty"></div>
+                <div class="col" id="icons"></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
