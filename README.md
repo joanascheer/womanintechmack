@@ -1,11 +1,16 @@
-Este layout foi criado por Joana Scheer.
-Para visualizá-lo estilizado, favor descompactar :)
+# Web Project Woman in Tech Mackenzie
 
-Atualização em 08/04/2024 v 1.0
-mudança de layout de acordo com gosto da autora.
+## Instalação         
+Faça o clone do pro projeto com o seguinte comando:
+```bash
+git clone https://github.com/joanascheer/womanintechmack.git
+```
 
-Atualização em 07/05/2024
-inserção de lista com times favoritos escolhidos por cor usando javascript
+Este projeto é mantido por:
+* [Joana](https://github.com/joanascheer)
 
-Atualização em 15/05/2024
-Inserção de alert com mensagem
+## [0.1.0] ÚLTIMA VERSÃO PUBLICADA
+
+# Changelog
+
+Todas as mudanças desse projeto ficam listadas nesse [documento](CHANGELOG.md)
