@@ -6,6 +6,13 @@ html {
     height: 100%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: #FF3352;
@@ -108,10 +115,12 @@ body {
 footer {
     background-color: #FF3352;
     background-size: cover;
+    height: auto;
 
     p {
     clear: both;
     width: 100%;
+    height: auto;
     position: relative;
     text-align: left;
     font-family: Calibri, sans-serif;
@@ -138,26 +147,7 @@ footer {
     }
 
     #coluna1 img {
-        width: 5%;
-    }
-
-    #icons {
-        width: 20%;
-        text-align: right;
-    }
-
-    #icons a:hover {
-        text-decoration: none;
-        background-color: transparent;
-    }
-
-    #icons img {
-        width: 12%;
-        margin-right: 5%;
-    }
-
-    #icons div {
-        display: inline-block;
+        width: 2%;
     }
 
 }
