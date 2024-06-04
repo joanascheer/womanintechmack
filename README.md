@@ -3,7 +3,31 @@
 ## Instalação         
 Faça o clone do pro projeto com o seguinte comando:
 ```bash
-git clone https://github.com/joanascheer/womanintechmack.git
+# Exemplo hipotético de código para ilustrar overfitting
+from sklearn.tree import DecisionTreeRegressor
+import numpy as np
+
+# Supondo que X_train são as características e y_train são os preços das casas
+X_train = np.array([[1000, 2], [1500, 3], [800, 1], [1200, 2]])  # tamanho em pés quadrados, número de quartos
+y_train = np.array([300000, 400000, 200000, 350000])  # preço
+
+# Criando um modelo de árvore de decisão muito profunda
+model = DecisionTreeRegressor(max_depth=10)
+model.fit(X_train, y_train)
+
+# O modelo pode ter um desempenho perfeito no treinamento, mas pode falhar em dados novos# Exemplo hipotético de código para ilustrar overfitting
+from sklearn.tree import DecisionTreeRegressor
+import numpy as np
+
+# Supondo que X_train são as características e y_train são os preços das casas
+X_train = np.array([[1000, 2], [1500, 3], [800, 1], [1200, 2]])  # tamanho em pés quadrados, número de quartos
+y_train = np.array([300000, 400000, 200000, 350000])  # preço
+
+# Criando um modelo de árvore de decisão muito profunda
+model = DecisionTreeRegressor(max_depth=10)
+model.fit(X_train, y_train)
+
+# O modelo pode ter um desempenho perfeito no treinamento, mas pode falhar em dados novos
 ```
 
 Este projeto é mantido por:
